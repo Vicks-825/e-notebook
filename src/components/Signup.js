@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
-    const host = 'https://my-online-e-notebook.herokuapp.com';
+    const host = 'https://e-notebook-backend-jc6r.onrender.com';
     const [credential, setCredential] = useState({name: "", email: "", password: "", cpassword: ""});
     let Navigate = useNavigate();
     const handleSubmit = async(e)=>{
