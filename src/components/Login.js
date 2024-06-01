@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
-    const host = 'https://e-notebook-backend-jc6r.onrender.com';
+    const host = 'http://localhost:8000';
     const [credential, setCredential] = useState({email: "", password: ""});
     let navigate = useNavigate();
     const handleSubmit = async(e)=>{
